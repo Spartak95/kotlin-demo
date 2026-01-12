@@ -1,5 +1,9 @@
 package com.xcoder
 
-fun main(args: Array<String>) {
-    println("Hello World")
+fun main() {
+    print("Hell ")
+    print("World!")
+
+    println("Hello World!")
+    println(42)
 }

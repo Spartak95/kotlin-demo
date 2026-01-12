@@ -1,9 +1,14 @@
 package com.xcoder
 
 fun main() {
-    print("Hell ")
-    print("World!")
+    // Prints a message to request input
+    println("Enter any word: ")
 
-    println("Hello World!")
-    println(42)
+    // Reads and stores the user input. For example, Happiness
+    val yourWord = readln()
+
+    // Prints a message with the input
+    print("You entered the word: ")
+    print(yourWord)
+    // You entered the word: Happiness
 }
